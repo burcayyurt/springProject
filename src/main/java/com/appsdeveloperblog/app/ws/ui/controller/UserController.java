@@ -25,7 +25,7 @@ public class UserController {
 	@GetMapping
 	public String getUser()
 	{
-		return "kancık simge içine alacağmış çünkü kancık";
+		return "get request";
 	}
 	
 	@PostMapping
@@ -47,13 +47,13 @@ public class UserController {
 	@PutMapping
 	public String updateUser()
 	{
-		return "simge tribi update etti";
+		return "put request";
 	}
 	
 	@DeleteMapping
 	public String deleteUser()
 	{
-		return "simgeyi boşa";
+		return "delete request";
 	}
 
 }
