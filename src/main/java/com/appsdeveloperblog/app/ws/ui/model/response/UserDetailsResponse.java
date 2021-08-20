@@ -19,10 +19,10 @@ public class UserDetailsResponse {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public String geteMail() {
+	public String getEmail() {
 		return email;
 	}
-	public void seteMail(String email) {
+	public void setEmail(String email) {
 		this.email = email;
 	}
 	public String getUserID() {
